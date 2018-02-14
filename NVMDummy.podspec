@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" }
 
   s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/NVMDummy/NVMDummy.h' }
+  s.swift_version    = "4.0"
 
   s.requires_arc     = true
   s.platform         = :ios, '8.0'
