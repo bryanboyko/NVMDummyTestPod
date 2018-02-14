@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/bryanboyko/NVMDummyTestPod.git", :tag => s.version.to_s }
   s.license          = { :type => "MIT", :file => "LICENSE" }
 
+  s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/../../NVMDummy/NVMDuymmy.h' }
+
   s.requires_arc     = true
   s.platform         = :ios, '8.0'
   s.static_framework = true
