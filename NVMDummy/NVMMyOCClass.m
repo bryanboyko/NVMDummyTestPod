@@ -10,6 +10,10 @@
 
 @implementation NVMMyOCClass
 
++ (void)describe {
+    NSLog(@"This is an ObjC class");
+}
+
 - (NSString *)description {
   return @"This is description of an objc class";
 }
