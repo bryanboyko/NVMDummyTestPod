@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = "https://github.com/kustra/NVMDummyTestPod"
   s.author           = { "kustra" => "laszlo@kustra.hu" }
-  s.source           = { :git => "https://github.com/kustra/NVMDummyTestPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bryanboyko/NVMDummyTestPod.git", :tag => s.version.to_s }
   s.license          = { :type => "MIT", :file => "LICENSE" }
-  
+
   s.requires_arc     = true
   s.platform         = :ios, '8.0'
   s.static_framework = true
